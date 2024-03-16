@@ -13,6 +13,7 @@ public class UIUpdateManager : MonoBehaviour
     [Header("Project UI Elements")]
     public Image[] connectionImages;
     public TMP_Text[] RFIDInTMP;
+    public TMP_Text[] RFIDInTMP_AR;
     public TMP_Dropdown orderQuantityDropdown;
     public TMP_Dropdown partNumberDropdown;
 
@@ -36,6 +37,7 @@ public class UIUpdateManager : MonoBehaviour
         {
             Debug.LogWarning(interfaceToRead + 1 + " is reading: " + RFIDInNodeReaders[interfaceToRead].dataFromOPCUANode);
         }
+
     }
 
     // Method to send an order to the machine using values from UI dropdowns
@@ -51,6 +53,8 @@ public class UIUpdateManager : MonoBehaviour
         for (int i = 0; i < RFIDInNodeReaders.Length; i++)
         {
             RFIDInTMP[i].text = RFIDInNodeReaders[i].dataFromOPCUANode;
+
+            RFIDInTMP_AR[i].text = "Car number " + RFIDInNodeReaders[i].dataFromOPCUANode;
         }
     }
 }

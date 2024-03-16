@@ -4,11 +4,12 @@
 TagManager:
   serializedVersion: 2
   tags:
+  - Can
   - g4a firstlight
   - g4a sun
   - g4a secondlight
-  - Can
   - Align
+  - UIUpdateManager
   layers:
   - Default
   - TransparentFX
