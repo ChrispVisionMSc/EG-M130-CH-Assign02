@@ -5,7 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/ExampleScene.unity
     guid: f0d85197a6a0d4e4db80dcc42c110d2d
+  - enabled: 1
+    path: Assets/Scenes/FESTO_AR_LAB.unity
+    guid: 90c8667337693f849ba55d8cca40950d
   m_configObjects: {}
