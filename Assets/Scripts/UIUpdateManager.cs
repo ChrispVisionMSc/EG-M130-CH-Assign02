@@ -12,8 +12,10 @@ public class UIUpdateManager : MonoBehaviour
 
     [Header("Project UI Elements")]
     public Image[] connectionImages;
+    public Image[] connectionImageAR;
     public TMP_Text[] RFIDInTMP;
-    public TMP_Text[] RFIDInTMP_AR;
+    public TMP_Text[] RFIDInTMP_AR1;
+    public TMP_Text[] RFIDInTMP_AR2;
     public TMP_Dropdown orderQuantityDropdown;
     public TMP_Dropdown partNumberDropdown;
 
@@ -54,7 +56,9 @@ public class UIUpdateManager : MonoBehaviour
         {
             RFIDInTMP[i].text = RFIDInNodeReaders[i].dataFromOPCUANode;
 
-            RFIDInTMP_AR[i].text = "Car number " + RFIDInNodeReaders[i].dataFromOPCUANode;
+            RFIDInTMP_AR1[i].text = "Car Number " + RFIDInNodeReaders[i].dataFromOPCUANode;
+
+            RFIDInTMP_AR2[i].text = "Part Number " + RFIDInNodeReaders[i].dataFromOPCUANode;
         }
     }
 }
