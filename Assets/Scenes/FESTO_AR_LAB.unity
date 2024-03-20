@@ -3330,6 +3330,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 427714574}
   m_CullTransparentMesh: 1
+--- !u!114 &447692039 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6532046487310797429, guid: a6af8284930f5d94a973d0c2ab46bc4b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1384129877}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &450960679
 GameObject:
   m_ObjectHideFlags: 0
@@ -10788,11 +10800,11 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 1384129877}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1384129879 stripped
+--- !u!114 &1387890411 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6392877478646758018, guid: a6af8284930f5d94a973d0c2ab46bc4b,
+  m_CorrespondingSourceObject: {fileID: 6532046487310797429, guid: a6af8284930f5d94a973d0c2ab46bc4b,
     type: 3}
-  m_PrefabInstance: {fileID: 1384129877}
+  m_PrefabInstance: {fileID: 1113858055980158477}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -13849,16 +13861,7 @@ MonoBehaviour:
   - {fileID: 770510495}
   - {fileID: 92317821}
   - {fileID: 1361157900}
-  connectionImagesAR:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  connectionImageAR: []
   RFIDInTMP:
   - {fileID: 2113220623}
   - {fileID: 1101911197}
@@ -13880,15 +13883,8 @@ MonoBehaviour:
   - {fileID: 903769307}
   - {fileID: 1662134607}
   RFIDInTMP_AR2:
-  - {fileID: 1113858055980158479}
-  - {fileID: 1384129879}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 447692039}
+  - {fileID: 1387890411}
   orderQuantityDropdown: {fileID: 1555541606}
   partNumberDropdown: {fileID: 915292510}
 --- !u!4 &1906167858

@@ -8,6 +8,7 @@ public class UIUpdateManager : MonoBehaviour
     [Header("Project Scripts")]
     public OPCUA_Interface[] interfacess;
     public NodeReader[] RFIDInNodeReaders;
+    //public NodeReader[] StatusNodeReaders;
     public SendOrder sendOrder;
 
     [Header("Project UI Elements")]
@@ -58,7 +59,7 @@ public class UIUpdateManager : MonoBehaviour
 
             RFIDInTMP_AR1[i].text = "Car Number " + RFIDInNodeReaders[i].dataFromOPCUANode;
 
-            RFIDInTMP_AR2[i].text = "Part Number " + RFIDInNodeReaders[i].dataFromOPCUANode;
+            //RFIDInTMP_AR2[i].text = "Part Number " + RFIDInNodeReaders[i].dataFromOPCUANode;
         }
     }
 }
