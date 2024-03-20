@@ -960,7 +960,7 @@ GameObject:
   - component: {fileID: 8960987619887522786}
   - component: {fileID: 8302389319207128532}
   m_Layer: 0
-  m_Name: ConnectStat-Ind
+  m_Name: ConnStat-Ind
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1110,7 +1110,7 @@ GameObject:
   - component: {fileID: 2007518245035414336}
   - component: {fileID: 7100766707993323207}
   m_Layer: 0
-  m_Name: ConnectStat (TMP) (1)
+  m_Name: ConnStat (TMP) (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

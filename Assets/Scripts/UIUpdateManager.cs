@@ -13,7 +13,7 @@ public class UIUpdateManager : MonoBehaviour
 
     [Header("Project UI Elements")]
     public Image[] connectionImages;
-    public Image[] connectionImageAR;
+    public Image[] connectionImagesAR;
     public TMP_Text[] RFIDInTMP;
     public TMP_Text[] RFIDInTMP_AR1;
     public TMP_Text[] RFIDInTMP_AR2;
@@ -26,10 +26,12 @@ public class UIUpdateManager : MonoBehaviour
         if (interfacess[interfaceToRead].IsConnected)
         {
             connectionImages[interfaceToRead].color = Color.green;
+            connectionImagesAR[interfaceToRead].color = Color.green;
         }
         else
         {
             connectionImages[interfaceToRead].color = Color.red;
+            connectionImagesAR[interfaceToRead].color = Color.red;
         }
     }
 
