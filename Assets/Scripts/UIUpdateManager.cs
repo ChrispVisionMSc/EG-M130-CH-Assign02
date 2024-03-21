@@ -8,17 +8,22 @@ public class UIUpdateManager : MonoBehaviour
     [Header("Project Scripts")]
     public OPCUA_Interface[] interfacess;
     public NodeReader[] RFIDInNodeReaders;
-    //public NodeReader[] StatusNodeReaders;
+    public NodeReader[] FaultIdNodeReaders;
     public SendOrder sendOrder;
 
-    [Header("Project UI Elements")]
+    [Header("Device UI Elements")]
     public Image[] connectionImages;
-    public Image[] connectionImagesAR;
     public TMP_Text[] RFIDInTMP;
-    public TMP_Text[] RFIDInTMP_AR1;
-    public TMP_Text[] RFIDInTMP_AR2;
     public TMP_Dropdown orderQuantityDropdown;
     public TMP_Dropdown partNumberDropdown;
+
+    [Header("AR UI Elements")]
+    public Image[] connectionImagesAR;
+    public TMP_Text[] RFIDInTMP_AR;
+    public TMP_Text[] FaultIdTMP_AR;
+
+
+
 
     // Method to update connection status images based on OPC UA interface connection
     public void UpdateConnectionImages(int interfaceToRead)
@@ -59,9 +64,19 @@ public class UIUpdateManager : MonoBehaviour
         {
             RFIDInTMP[i].text = RFIDInNodeReaders[i].dataFromOPCUANode;
 
-            RFIDInTMP_AR1[i].text = "Car Number " + RFIDInNodeReaders[i].dataFromOPCUANode;
+            RFIDInTMP_AR[i].text = "Carr Number " + RFIDInNodeReaders[i].dataFromOPCUANode;
 
             //RFIDInTMP_AR2[i].text = "Part Number " + RFIDInNodeReaders[i].dataFromOPCUANode;
         }
+
+        for (int i = 0; i < FaultIdNodeReaders.Length; i++)
+        {
+            FaultIdTMP_AR[i].text = "Fault ID " + FaultIdNodeReaders[i].dataFromOPCUANode;
+
+            //RFIDInTMP_AR2[i].text = "Part Number " + RFIDInNodeReaders[i].dataFromOPCUANode;
+        }
+
     }
+
+
 }
