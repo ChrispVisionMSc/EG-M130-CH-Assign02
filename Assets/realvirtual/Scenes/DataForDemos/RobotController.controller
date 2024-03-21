@@ -4,7 +4,8 @@
 AnimatorController:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: RobotController
   serializedVersion: 5
   m_AnimatorParameters: []
@@ -23,10 +24,11 @@ AnimatorController:
     m_Controller: {fileID: 9100000}
 --- !u!1102 &1102094390555587650
 AnimatorState:
-  serializedVersion: 5
+  serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: RobotAnimation
   m_Speed: 0.5
   m_CycleOffset: 0
@@ -48,10 +50,11 @@ AnimatorState:
   m_TimeParameter: 
 --- !u!1102 &1102266686156083214
 AnimatorState:
-  serializedVersion: 5
+  serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: PutBoxOnConveyor
   m_Speed: 0.3
   m_CycleOffset: 0
@@ -73,10 +76,11 @@ AnimatorState:
   m_TimeParameter: 
 --- !u!1102 &1102322188214791444
 AnimatorState:
-  serializedVersion: 5
+  serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: MoveToPick
   m_Speed: 0.7
   m_CycleOffset: 0
@@ -98,10 +102,11 @@ AnimatorState:
   m_TimeParameter: 
 --- !u!1102 &1102613287643502794
 AnimatorState:
-  serializedVersion: 5
+  serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: LiftAndDump
   m_Speed: 0.3
   m_CycleOffset: 0
@@ -123,10 +128,11 @@ AnimatorState:
   m_TimeParameter: 
 --- !u!1102 &1102825211524643244
 AnimatorState:
-  serializedVersion: 5
+  serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: MoveOutFromPick
   m_Speed: 0.5
   m_CycleOffset: 0
@@ -148,15 +154,16 @@ AnimatorState:
   m_TimeParameter: 
 --- !u!1107 &1107957335902387284
 AnimatorStateMachine:
-  serializedVersion: 5
+  serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: Base Layer
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 1102094390555587650}
-    m_Position: {x: -96, y: 132, z: 0}
+    m_Position: {x: -100, y: 130, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102322188214791444}
     m_Position: {x: -96, y: 216, z: 0}
