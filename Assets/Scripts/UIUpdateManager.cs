@@ -22,6 +22,11 @@ public class UIUpdateManager : MonoBehaviour
     public TMP_Text[] RFIDInTMP_AR;
     public TMP_Text[] FaultIdTMP_AR;
 
+    [Header("DT UI Elements")]
+    public Image[] connectionImagesDT;
+    public TMP_Text[] RFIDInTMP_DT;
+    public TMP_Text[] FaultIdTMP_DT;
+
 
 
 
@@ -32,11 +37,13 @@ public class UIUpdateManager : MonoBehaviour
         {
             connectionImages[interfaceToRead].color = Color.green;
             connectionImagesAR[interfaceToRead].color = Color.green;
+            connectionImagesDT[interfaceToRead].color = Color.green;
         }
         else
         {
             connectionImages[interfaceToRead].color = Color.red;
             connectionImagesAR[interfaceToRead].color = Color.red;
+            connectionImagesDT[interfaceToRead].color = Color.red;
         }
     }
 
@@ -66,12 +73,16 @@ public class UIUpdateManager : MonoBehaviour
 
             RFIDInTMP_AR[i].text = "Carr Number " + RFIDInNodeReaders[i].dataFromOPCUANode;
 
-            //RFIDInTMP_AR2[i].text = "Part Number " + RFIDInNodeReaders[i].dataFromOPCUANode;
+            RFIDInTMP_DT[i].text = "Carr Number " + RFIDInNodeReaders[i].dataFromOPCUANode;
+
+         
         }
 
         for (int i = 0; i < FaultIdNodeReaders.Length; i++)
         {
             FaultIdTMP_AR[i].text = "Fault ID " + FaultIdNodeReaders[i].dataFromOPCUANode;
+
+            FaultIdTMP_DT[i].text = "Fault ID " + FaultIdNodeReaders[i].dataFromOPCUANode;
 
             //RFIDInTMP_AR2[i].text = "Part Number " + RFIDInNodeReaders[i].dataFromOPCUANode;
         }
