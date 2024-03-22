@@ -669,7 +669,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &58859401
 Transform:
   m_ObjectHideFlags: 0
@@ -1063,7 +1063,7 @@ GameObject:
   - component: {fileID: 86096656}
   - component: {fileID: 86096655}
   m_Layer: 5
-  m_Name: 7
+  m_Name: 7a
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1359,7 +1359,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 919643700}
   m_Direction: 2
   m_Value: 0
-  m_Size: 1
+  m_Size: 0.81333333
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -2901,7 +2901,7 @@ GameObject:
   - component: {fileID: 226832757}
   - component: {fileID: 226832756}
   m_Layer: 5
-  m_Name: RFIDIn2
+  m_Name: RFIDIn2a
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3035,7 +3035,7 @@ GameObject:
   - component: {fileID: 245372922}
   - component: {fileID: 245372921}
   m_Layer: 5
-  m_Name: 5
+  m_Name: 5a
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3567,7 +3567,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &286793898
 Transform:
   m_ObjectHideFlags: 0
@@ -3852,7 +3852,7 @@ GameObject:
   - component: {fileID: 311476214}
   - component: {fileID: 311476213}
   m_Layer: 5
-  m_Name: RFIDIn9
+  m_Name: RFIDIn9a
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4491,7 +4491,7 @@ GameObject:
   - component: {fileID: 366034533}
   - component: {fileID: 366034532}
   m_Layer: 5
-  m_Name: 3
+  m_Name: 3a
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5404,7 +5404,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &407456774
 Transform:
   m_ObjectHideFlags: 0
@@ -5842,7 +5842,7 @@ GameObject:
   - component: {fileID: 429892725}
   - component: {fileID: 429892724}
   m_Layer: 5
-  m_Name: 6
+  m_Name: 6a
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5983,7 +5983,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &450960680
 Transform:
   m_ObjectHideFlags: 0
@@ -6198,7 +6198,7 @@ GameObject:
   - component: {fileID: 460502410}
   - component: {fileID: 460502409}
   m_Layer: 5
-  m_Name: RFIDIn5
+  m_Name: RFIDIn5a
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6342,7 +6342,7 @@ GameObject:
   m_Component:
   - component: {fileID: 471568727}
   m_Layer: 0
-  m_Name: ///UI Elements (1)
+  m_Name: ///UI Elements (CH)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6604,7 +6604,7 @@ GameObject:
   - component: {fileID: 482406244}
   - component: {fileID: 482406243}
   m_Layer: 5
-  m_Name: RFIDIn8
+  m_Name: RFIDIn8a
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9467,7 +9467,7 @@ GameObject:
   - component: {fileID: 663907656}
   - component: {fileID: 663907655}
   m_Layer: 5
-  m_Name: RFIDIn1
+  m_Name: RFIDIn1a
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12353,7 +12353,7 @@ GameObject:
   - component: {fileID: 800984435}
   - component: {fileID: 800984434}
   m_Layer: 5
-  m_Name: RFIDIn4
+  m_Name: RFIDIn4a
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13860,7 +13860,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.5254902}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.6784314}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -14333,7 +14333,7 @@ RectTransform:
   m_Father: {fileID: 206062597}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 0.81333333}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -15115,7 +15115,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &964863400
 Transform:
   m_ObjectHideFlags: 0
@@ -15290,7 +15290,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &982274203
 Transform:
   m_ObjectHideFlags: 0
@@ -16284,7 +16284,7 @@ GameObject:
   - component: {fileID: 1062738237}
   - component: {fileID: 1062738236}
   m_Layer: 5
-  m_Name: RFIDIn6
+  m_Name: RFIDIn6a
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16589,7 +16589,7 @@ RectTransform:
   m_Father: {fileID: 1774255552}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 0.81333333}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -17184,7 +17184,7 @@ RectTransform:
   m_Father: {fileID: 204957747}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 0.81333345}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -17372,7 +17372,7 @@ GameObject:
   - component: {fileID: 1137356776}
   - component: {fileID: 1137356775}
   m_Layer: 5
-  m_Name: RFIDIn7
+  m_Name: RFIDIn7a
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17909,7 +17909,7 @@ GameObject:
   - component: {fileID: 1169834574}
   - component: {fileID: 1169834573}
   m_Layer: 5
-  m_Name: 2
+  m_Name: 2a
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18193,8 +18193,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1127491671}
   m_HandleRect: {fileID: 1127491670}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 1
+  m_Value: 0
+  m_Size: 0.81333345
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -19233,7 +19233,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1287113317
 Transform:
   m_ObjectHideFlags: 0
@@ -20337,7 +20337,7 @@ GameObject:
   - component: {fileID: 1372788741}
   - component: {fileID: 1372788740}
   m_Layer: 5
-  m_Name: 9
+  m_Name: 9a
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21126,7 +21126,7 @@ GameObject:
   m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1403176870
 Transform:
   m_ObjectHideFlags: 0
@@ -21914,7 +21914,7 @@ GameObject:
   - component: {fileID: 1456780904}
   - component: {fileID: 1456780903}
   m_Layer: 5
-  m_Name: 1
+  m_Name: 1a
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23055,7 +23055,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1543378987
 Transform:
   m_ObjectHideFlags: 0
@@ -23605,7 +23605,7 @@ GameObject:
   - component: {fileID: 1606591397}
   - component: {fileID: 1606591396}
   m_Layer: 5
-  m_Name: 8
+  m_Name: 8a
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25602,7 +25602,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1752629494
 Transform:
   m_ObjectHideFlags: 0
@@ -27196,7 +27196,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0.0000076293945}
   m_SizeDelta: {x: 0, y: 28}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &1834599780
@@ -28109,7 +28109,7 @@ GameObject:
   - component: {fileID: 1884391406}
   - component: {fileID: 1884391405}
   m_Layer: 5
-  m_Name: RFIDIn3
+  m_Name: RFIDIn3a
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28292,25 +28292,25 @@ MonoBehaviour:
   - {fileID: 1490351168}
   sendOrder: {fileID: 1635789239}
   connectionImages:
-  - {fileID: 179957233}
-  - {fileID: 180228967}
-  - {fileID: 1998163039}
-  - {fileID: 851834240}
-  - {fileID: 839270455}
-  - {fileID: 1862421266}
-  - {fileID: 770510495}
-  - {fileID: 92317821}
-  - {fileID: 1361157900}
+  - {fileID: 1456780903}
+  - {fileID: 1169834573}
+  - {fileID: 366034532}
+  - {fileID: 2100621740}
+  - {fileID: 245372921}
+  - {fileID: 429892724}
+  - {fileID: 86096655}
+  - {fileID: 1606591396}
+  - {fileID: 1372788740}
   RFIDInTMP:
-  - {fileID: 2113220623}
-  - {fileID: 1101911197}
-  - {fileID: 1443381365}
-  - {fileID: 1158303242}
-  - {fileID: 317050925}
-  - {fileID: 127009799}
-  - {fileID: 1223389023}
-  - {fileID: 618560733}
-  - {fileID: 978712316}
+  - {fileID: 663907655}
+  - {fileID: 226832756}
+  - {fileID: 1884391405}
+  - {fileID: 800984434}
+  - {fileID: 460502409}
+  - {fileID: 1062738236}
+  - {fileID: 1137356775}
+  - {fileID: 482406243}
+  - {fileID: 311476213}
   orderQuantityDropdown: {fileID: 1555541606}
   partNumberDropdown: {fileID: 915292510}
   connectionImagesAR:
@@ -28858,7 +28858,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1067888558}
   m_Direction: 2
   m_Value: 0
-  m_Size: 1
+  m_Size: 0.81333333
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -30481,7 +30481,7 @@ GameObject:
   - component: {fileID: 2100621741}
   - component: {fileID: 2100621740}
   m_Layer: 5
-  m_Name: 4
+  m_Name: 4a
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
